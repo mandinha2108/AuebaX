@@ -1,0 +1,113 @@
+/* Reset básico para garantir a consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    background-color: #000; /* Fundo preto como o do X */
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 400px; /* Aumentar a largura do logo */
+    width: auto;
+    height: auto;
+}
+
+/* Seção principal de inscrição */
+.inscricao {
+    text-align: center;
+}
+
+.inscricao h1 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.inscricao h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* Estilizando os botões */
+button {
+    background-color: #4800ff; /* Usando a cor de destaque que você forneceu */
+    border: none;
+    border-radius: 999px; /* Botões arredondados como no X */
+    color: white;
+    padding: 14px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+button:hover {
+    background-color: #3b00d9; /* Cor um pouco mais escura ao passar o mouse */
+}
+
+.ou {
+    margin: 20px 0;
+    color: #888; /* Cor mais clara para o "ou" */
+}
+
+.inscricao a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.login a {
+    color: #4800ff; /* Usando a cor de destaque para o link de "Entrar" */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer nav a {
+    color: #888; /* Cores suaves para os links de rodapé */
+    font-size: 0.9rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: white;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
